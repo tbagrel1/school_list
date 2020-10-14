@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A14CAC72253724EE008FB5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC71253724EE008FB5F6 /* AppDelegate.swift */; };
-		A14CAC74253724EE008FB5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC73253724EE008FB5F6 /* SceneDelegate.swift */; };
 		A14CAC76253724EE008FB5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC75253724EE008FB5F6 /* ViewController.swift */; };
 		A14CAC79253724EE008FB5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14CAC77253724EE008FB5F6 /* Main.storyboard */; };
 		A14CAC7B253724F7008FB5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14CAC7A253724F7008FB5F6 /* Assets.xcassets */; };
 		A14CAC7E253724F7008FB5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14CAC7C253724F7008FB5F6 /* LaunchScreen.storyboard */; };
+		A14CAC86253731ED008FB5F6 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC85253731ED008FB5F6 /* StudentModel.swift */; };
+		A14CAC8825373376008FB5F6 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC8725373376008FB5F6 /* StudentTableViewController.swift */; };
+		A14CAC8A2537464E008FB5F6 /* NewStudentPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC892537464E008FB5F6 /* NewStudentPopoverViewController.swift */; };
+		A14CAC8C25374BF3008FB5F6 /* EditStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC8B25374BF3008FB5F6 /* EditStudentViewController.swift */; };
+		A14CAC8E2537556B008FB5F6 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CAC8D2537556B008FB5F6 /* StudentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A14CAC6E253724ED008FB5F6 /* SchoolList12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolList12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14CAC71253724EE008FB5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A14CAC73253724EE008FB5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A14CAC75253724EE008FB5F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A14CAC78253724EE008FB5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A14CAC7A253724F7008FB5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14CAC7D253724F7008FB5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14CAC7F253724F7008FB5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14CAC85253731ED008FB5F6 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		A14CAC8725373376008FB5F6 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		A14CAC892537464E008FB5F6 /* NewStudentPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStudentPopoverViewController.swift; sourceTree = "<group>"; };
+		A14CAC8B25374BF3008FB5F6 /* EditStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentViewController.swift; sourceTree = "<group>"; };
+		A14CAC8D2537556B008FB5F6 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		A14CAC70253724ED008FB5F6 /* SchoolList12 */ = {
 			isa = PBXGroup;
 			children = (
+				A14CAC85253731ED008FB5F6 /* StudentModel.swift */,
 				A14CAC71253724EE008FB5F6 /* AppDelegate.swift */,
-				A14CAC73253724EE008FB5F6 /* SceneDelegate.swift */,
 				A14CAC75253724EE008FB5F6 /* ViewController.swift */,
 				A14CAC77253724EE008FB5F6 /* Main.storyboard */,
 				A14CAC7A253724F7008FB5F6 /* Assets.xcassets */,
 				A14CAC7C253724F7008FB5F6 /* LaunchScreen.storyboard */,
 				A14CAC7F253724F7008FB5F6 /* Info.plist */,
+				A14CAC8725373376008FB5F6 /* StudentTableViewController.swift */,
+				A14CAC892537464E008FB5F6 /* NewStudentPopoverViewController.swift */,
+				A14CAC8B25374BF3008FB5F6 /* EditStudentViewController.swift */,
+				A14CAC8D2537556B008FB5F6 /* StudentCell.swift */,
 			);
 			path = SchoolList12;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14CAC8C25374BF3008FB5F6 /* EditStudentViewController.swift in Sources */,
 				A14CAC76253724EE008FB5F6 /* ViewController.swift in Sources */,
+				A14CAC8A2537464E008FB5F6 /* NewStudentPopoverViewController.swift in Sources */,
+				A14CAC86253731ED008FB5F6 /* StudentModel.swift in Sources */,
+				A14CAC8825373376008FB5F6 /* StudentTableViewController.swift in Sources */,
 				A14CAC72253724EE008FB5F6 /* AppDelegate.swift in Sources */,
-				A14CAC74253724EE008FB5F6 /* SceneDelegate.swift in Sources */,
+				A14CAC8E2537556B008FB5F6 /* StudentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DP9926KM9;
 				INFOPLIST_FILE = SchoolList12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DP9926KM9;
 				INFOPLIST_FILE = SchoolList12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
